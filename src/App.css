@@ -1,0 +1,22 @@
+@import "./styles/order.css";
+@import "./styles/userpages.css";
+
+body {
+  background-color: rgb(253, 239, 249);
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  align-items: center;
+  height: 50%;
+  width: 400px;
+}
+
+.container2 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  align-items: center;
+  height: 50%;
+  width: 500px;
+}
