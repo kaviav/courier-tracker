@@ -103,7 +103,7 @@ export const Navbarr = () => {
               </Button>
             </>
           )}
-          {currentUser && (
+          {currentUser && !isAdmin && (
             <>
               <Link to="/track">
                 <Button>TRACK ORDER</Button>
